@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body, html {
+  width: 100%;
+  height: 100%; }
+
+.boxs {
+  width: 1920px;
+  height: 934px;
+  margin: 0 auto;
+  background: #000;
+  overflow: hidden; }
+  .boxs #scene {
+    width: 1920px;
+    height: 964px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: -30px; }
+    .boxs #scene li {
+      width: 2208px;
+      height: 1108.6px;
+      margin-left: -220.8px; }
+      .boxs #scene li img {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        height: 100%; }
+  .boxs .content {
+    width: 1920px;
+    height: 934px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99; }
+    .boxs .content .logo {
+      width: 288px;
+      height: 142px;
+      padding-left: 162px;
+      padding-top: 15px; }
+    .boxs .content .slogan {
+      width: auto;
+      height: 560px;
+      padding-top: 36px;
+      margin-left: 670px; }
+      .boxs .content .slogan img {
+        height: 100%; }
+    .boxs .content .down {
+      width: 320px;
+      height: 618px; }
+      .boxs .content .down dl {
+        width: 320px;
+        height: 550px; }
+        .boxs .content .down dl dt {
+          width: 320px;
+          height: 40px; }
+          .boxs .content .down dl dt img {
+            width: 320px; }
+        .boxs .content .down dl .con {
+          width: 320px;
+          height: 476px;
+          background: url(../img/xzj_zz_bg.png) no-repeat center;
+          padding-top: 34px;
+          margin-left: 6px; }
+          .boxs .content .down dl .con .title, .boxs .content .down dl .con .downs {
+            width: 176px;
+            margin: 0 auto; }
+          .boxs .content .down dl .con .title {
+            padding: 6px 0;
+            border: 1px solid #4a2419;
+            margin-bottom: 16px; }
+            .boxs .content .down dl .con .title h3 {
+              width: 176px;
+              position: relative;
+              height: 26px;
+              text-align: center;
+              font-size: 0; }
+              .boxs .content .down dl .con .title h3 span, .boxs .content .down dl .con .title h3 em {
+                display: inline-block;
+                vertical-align: middle; }
+              .boxs .content .down dl .con .title h3 span {
+                width: 20%;
+                height: 3px;
+                background: #4a2419; }
+              .boxs .content .down dl .con .title h3 em {
+                width: 40%;
+                font: 14px/26px "微软雅黑";
+                color: #4a2419;
+                text-align: center;
+                margin: 0 5%; }
+            .boxs .content .down dl .con .title h4 {
+              width: 100%;
+              height: 140px;
+              position: relative; }
+              .boxs .content .down dl .con .title h4 img {
+                width: 132px;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                margin: auto; }
+          .boxs .content .down dl .con .downs a {
+            display: block;
+            height: 50px;
+            margin: 6px 0; }
+          .boxs .content .down dl .con .downs .ios {
+            background: url(../img/xzj_ios.png) no-repeat center;
+            background-size: cover; }
+          .boxs .content .down dl .con .downs .android {
+            background: url(../img/xzj_android.png) no-repeat center;
+            background-size: cover; }
+          .boxs .content .down dl .con .downs .gw {
+            background: url(../img/xzj_gw.png) no-repeat center;
+            background-size: cover; }
+      .boxs .content .down .gj {
+        width: 300px;
+        height: 128px;
+        margin-top: -62px;
+        padding-right: 10px;
+        overflow: hidden; }
+        .boxs .content .down .gj img {
+          height: 130px;
+          margin: 0 auto; }

@@ -1,0 +1,156 @@
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.boxs{
+    width: 1920px;
+    height: 934px;
+    margin:0 auto;
+    background: #000;
+    overflow: hidden;
+    #scene{
+        width:1920px;
+        height: 964px;
+        position: relative;
+        margin:0 auto;
+        overflow: hidden;
+        margin-top: -30px;
+        li{
+            width: 2208px;
+            height: 1108.6px;
+            margin-left: -220.8px;
+            img{
+                width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                margin:auto;
+                height: 100%;
+            }
+        }
+    }
+    .content{
+        width: 1920px;
+        height: 934px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 99;
+        .logo{
+            width:288px ;
+            height: 142px;
+            padding-left: 162px;
+            padding-top:15px ;
+        }
+        .slogan{
+            width: auto;
+            height: 560px;
+            padding-top: 36px;
+            margin-left: 670px;
+            img{
+                height: 100%;
+            }
+        }
+        .down{
+            width: 320px;
+            height: 618px;
+            dl{
+                width: 320px;
+                height: 550px;
+                dt{
+                    width: 320px;
+                    height: 40px;
+                    img{
+                        width: 320px;
+                    }
+                }
+                .con{
+                    width: 320px;
+                    height: 476px;
+                    background: url(../img/xzj_zz_bg.png) no-repeat center;
+                    padding-top: 34px;
+                    margin-left: 6px;
+                    .title,.downs{
+                        width: 176px;
+                        margin:0 auto;
+                    }
+                    .title{
+                        padding:6px 0;
+                        border: 1px solid #4a2419;
+                        margin-bottom: 16px;
+                        h3{
+                            width: 176px;
+                            position: relative;
+                            height: 26px;
+                            text-align: center;
+                            font-size:0 ;
+                            span,em{
+                                display:inline-block;
+                                vertical-align: middle;
+                            }
+                            span{
+                                width: 20%;
+                                height: 3px;
+                                background: #4a2419;
+                            }
+                            em{
+                                width: 40%;
+                                font:14px/26px "微软雅黑";
+                                color: #4a2419;
+                                text-align: center;
+                                margin:0 5%;
+                            }
+                        }
+                        h4{
+                            width: 100%;
+                            height: 140px;
+                            position: relative;
+                            img{
+                                width: 132px;
+                                position: absolute;
+                                left: 0;
+                                right: 0;
+                                top: 0;
+                                bottom: 0;
+                                margin:auto;
+                            }
+                        }
+                    }
+                    .downs{
+                        a{
+                            display: block;
+                            height: 50px;
+                            margin:6px 0;
+                        }
+                        .ios{
+                            background: url(../img/xzj_ios.png) no-repeat center;
+                            background-size:cover ;
+                        }
+                        .android{
+                            background: url(../img/xzj_android.png) no-repeat center;
+                            background-size:cover ;
+                        }
+                        .gw{
+                            background: url(../img/xzj_gw.png) no-repeat center;
+                            background-size:cover ;
+                        }
+                    }
+                }
+            }
+            .gj{
+                width: 300px;
+                height: 128px;
+                margin-top: -62px;
+                padding-right: 10px;
+                overflow: hidden;
+                img{
+                    height: 130px;
+                    margin:0 auto;
+                }
+            }
+        }
+    }
+}
+
