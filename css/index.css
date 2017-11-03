@@ -1,26 +1,27 @@
 @charset "UTF-8";
 body, html {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  min-width: 1200px; }
 
-.boxs {
+.activeBoxs {
   width: 1920px;
   height: 934px;
   margin: 0 auto;
   background: #000;
   overflow: hidden; }
-  .boxs #scene {
+  .activeBoxs #scene {
     width: 1920px;
     height: 964px;
     position: relative;
     margin: 0 auto;
     overflow: hidden;
     margin-top: -30px; }
-    .boxs #scene li {
+    .activeBoxs #scene li {
       width: 2208px;
       height: 1108.6px;
       margin-left: -220.8px; }
-      .boxs #scene li img {
+      .activeBoxs #scene li img {
         width: 100%;
         position: absolute;
         left: 0;
@@ -29,73 +30,73 @@ body, html {
         top: 0;
         margin: auto;
         height: 100%; }
-  .boxs .content {
+  .activeBoxs .content {
     width: 1920px;
     height: 934px;
     position: absolute;
     left: 0;
     top: 0;
     z-index: 99; }
-    .boxs .content .logo {
+    .activeBoxs .content .logo {
       width: 288px;
       height: 142px;
       padding-left: 162px;
       padding-top: 15px; }
-    .boxs .content .slogan {
+    .activeBoxs .content .slogan {
       width: auto;
       height: 560px;
       padding-top: 36px;
       margin-left: 670px; }
-      .boxs .content .slogan img {
+      .activeBoxs .content .slogan img {
         height: 100%; }
-    .boxs .content .down {
+    .activeBoxs .content .down {
       width: 320px;
       height: 618px; }
-      .boxs .content .down dl {
+      .activeBoxs .content .down dl {
         width: 320px;
         height: 550px; }
-        .boxs .content .down dl dt {
+        .activeBoxs .content .down dl dt {
           width: 320px;
           height: 40px; }
-          .boxs .content .down dl dt img {
+          .activeBoxs .content .down dl dt img {
             width: 320px; }
-        .boxs .content .down dl .con {
+        .activeBoxs .content .down dl .con {
           width: 320px;
           height: 476px;
           background: url(../img/xzj_zz_bg.png) no-repeat center;
           padding-top: 34px;
           margin-left: 6px; }
-          .boxs .content .down dl .con .title, .boxs .content .down dl .con .downs {
+          .activeBoxs .content .down dl .con .title, .activeBoxs .content .down dl .con .downs {
             width: 176px;
             margin: 0 auto; }
-          .boxs .content .down dl .con .title {
+          .activeBoxs .content .down dl .con .title {
             padding: 6px 0;
             border: 1px solid #4a2419;
             margin-bottom: 16px; }
-            .boxs .content .down dl .con .title h3 {
+            .activeBoxs .content .down dl .con .title h3 {
               width: 176px;
               position: relative;
               height: 26px;
               text-align: center;
               font-size: 0; }
-              .boxs .content .down dl .con .title h3 span, .boxs .content .down dl .con .title h3 em {
+              .activeBoxs .content .down dl .con .title h3 span, .activeBoxs .content .down dl .con .title h3 em {
                 display: inline-block;
                 vertical-align: middle; }
-              .boxs .content .down dl .con .title h3 span {
+              .activeBoxs .content .down dl .con .title h3 span {
                 width: 20%;
                 height: 3px;
                 background: #4a2419; }
-              .boxs .content .down dl .con .title h3 em {
+              .activeBoxs .content .down dl .con .title h3 em {
                 width: 40%;
                 font: 14px/26px "微软雅黑";
                 color: #4a2419;
                 text-align: center;
                 margin: 0 5%; }
-            .boxs .content .down dl .con .title h4 {
+            .activeBoxs .content .down dl .con .title h4 {
               width: 100%;
               height: 140px;
               position: relative; }
-              .boxs .content .down dl .con .title h4 img {
+              .activeBoxs .content .down dl .con .title h4 img {
                 width: 132px;
                 position: absolute;
                 left: 0;
@@ -103,25 +104,466 @@ body, html {
                 top: 0;
                 bottom: 0;
                 margin: auto; }
-          .boxs .content .down dl .con .downs a {
+          .activeBoxs .content .down dl .con .downs a {
             display: block;
             height: 50px;
             margin: 6px 0; }
-          .boxs .content .down dl .con .downs .ios {
+          .activeBoxs .content .down dl .con .downs .ios {
             background: url(../img/xzj_ios.png) no-repeat center;
             background-size: cover; }
-          .boxs .content .down dl .con .downs .android {
+          .activeBoxs .content .down dl .con .downs .android {
             background: url(../img/xzj_android.png) no-repeat center;
             background-size: cover; }
-          .boxs .content .down dl .con .downs .gw {
+          .activeBoxs .content .down dl .con .downs .gw {
             background: url(../img/xzj_gw.png) no-repeat center;
             background-size: cover; }
-      .boxs .content .down .gj {
+      .activeBoxs .content .down .gj {
         width: 300px;
         height: 128px;
         margin-top: -62px;
         padding-right: 10px;
         overflow: hidden; }
-        .boxs .content .down .gj img {
+        .activeBoxs .content .down .gj img {
           height: 130px;
           margin: 0 auto; }
+
+.web {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 1; }
+  .web .webTopCon {
+    height: 61px;
+    margin: 0 auto;
+    width: 1056px;
+    position: relative;
+    padding-left: 144px;
+    padding-top: 33px; }
+    .web .webTopCon .webLogo {
+      position: absolute;
+      top: 20px;
+      left: 23px; }
+      .web .webTopCon .webLogo img {
+        display: block;
+        height: 113px; }
+    .web .webTopCon ul li {
+      width: 151px; }
+      .web .webTopCon ul li a {
+        display: block; }
+        .web .webTopCon ul li a dl {
+          width: 100%; }
+          .web .webTopCon ul li a dl dt {
+            font: 17px/23px "微软雅黑";
+            text-align: center;
+            color: #fff; }
+          .web .webTopCon ul li a dl dd {
+            font: 8px/13px "微软雅黑";
+            color: #a7a7a7;
+            text-align: center; }
+      .web .webTopCon ul li a:hover dl dt, .web .webTopCon ul li a:hover dl dd {
+        color: #e2c47f; }
+      .web .webTopCon ul li .on dl dt, .web .webTopCon ul li .on dl dd {
+        color: #e2c47f; }
+    .web .webTopCon .webTopR {
+      height: 40px;
+      margin-top: -5px;
+      position: relative;
+      margin-right: 24px; }
+      .web .webTopCon .webTopR .topCode {
+        width: 34px;
+        height: 35px;
+        margin-right: 16px;
+        padding-top: 5px;
+        background: url(../images/index_weixin_color.png) no-repeat center;
+        background-size: 34px;
+        cursor: pointer;
+        position: relative; }
+        .web .webTopCon .webTopR .topCode dl {
+          background: #fff;
+          position: absolute;
+          left: -36px;
+          top: 54px;
+          width: 104px;
+          padding-top: 14px;
+          text-align: center; }
+          .web .webTopCon .webTopR .topCode dl img {
+            width: 90%;
+            margin: 0 auto; }
+          .web .webTopCon .webTopR .topCode dl dd {
+            font: 8px/20px "微软雅黑";
+            color: #000; }
+        .web .webTopCon .webTopR .topCode dl:after {
+          content: "";
+          width: 0;
+          height: 0;
+          position: absolute;
+          left: 42px;
+          top: -20px;
+          border-top: solid 10px transparent;
+          border-left: solid 10px transparent;
+          /* 白色小三角形 */
+          border-bottom: solid 10px white;
+          border-right: solid 10px transparent; }
+      .web .webTopCon .webTopR .topCode:hover {
+        background: url(../images/web_weixin.png) no-repeat center;
+        background-size: 34px; }
+      .web .webTopCon .webTopR .gzh dt, .web .webTopCon .webTopR .gzh dd {
+        color: #b5b5b5;
+        font-size: 16px;
+        font-family: "微软雅黑"; }
+
+.topBg {
+  width: 100%;
+  height: 1016px;
+  background: url(../images/top_bg.jpg) no-repeat center center;
+  margin-top: -94px; }
+  .topBg .box {
+    width: 1200px;
+    height: 492px;
+    margin: 0 auto;
+    padding-top: 524px; }
+    .topBg .box .down {
+      padding-left: 459px;
+      margin-bottom: 38px; }
+      .topBg .box .down ul {
+        margin: 0 auto;
+        padding: 7px 18px;
+        display: inline-block; }
+        .topBg .box .down ul li a {
+          display: block;
+          width: 114px;
+          margin-right: 15px; }
+          .topBg .box .down ul li a img {
+            width: 114px; }
+        .topBg .box .down ul li .downloads {
+          width: 128px; }
+          .topBg .box .down ul li .downloads img {
+            width: 128px;
+            margin-top: 4px;
+            margin-bottom: 8px; }
+        .topBg .box .down ul li .ios, .topBg .box .down ul li .android {
+          width: 173px;
+          height: 46px; }
+        .topBg .box .down ul li .ios {
+          padding-top: 6px;
+          background: url(../img/xzj_ios.png) no-repeat center;
+          margin-bottom: 10px; }
+        .topBg .box .down ul li .android {
+          background: url(../img/xzj_android.png) no-repeat center; }
+    .topBg .box .banner {
+      width: 1200px;
+      margin: 0 auto; }
+      .topBg .box .banner .ban {
+        width: 645px;
+        height: 284px;
+        position: relative; }
+        .topBg .box .banner .ban .swiper-container, .topBg .box .banner .ban .swiper-wrapper, .topBg .box .banner .ban .swiper-slide {
+          width: 100%;
+          height: 100%; }
+        .topBg .box .banner .ban a {
+          display: block;
+          width: 100%;
+          height: 100%; }
+          .topBg .box .banner .ban a img {
+            width: 100%;
+            height: 100%; }
+        .topBg .box .banner .ban .swiper-pagination {
+          width: 100%;
+          position: absolute;
+          bottom: 5px;
+          text-align: center;
+          font-size: 0; }
+          .topBg .box .banner .ban .swiper-pagination span {
+            display: inline-block;
+            vertical-align: top;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            background: #000000;
+            margin: 0 10px;
+            cursor: pointer; }
+          .topBg .box .banner .ban .swiper-pagination .swiper-active-switch {
+            background: #fa6e7f; }
+      .topBg .box .banner .infos {
+        width: 529px;
+        height: 284px;
+        background: #f8f6f3; }
+        .topBg .box .banner .infos .top {
+          width: 471px;
+          padding-bottom: 2px;
+          background: #f8f6f3;
+          margin: 0 auto; }
+          .topBg .box .banner .infos .top ul li a {
+            display: block;
+            font: 22px/68px "微软雅黑";
+            color: #7c5857;
+            width: 86px;
+            margin-right: 24px; }
+          .topBg .box .banner .infos .top ul li span {
+            color: #7c5857;
+            margin-left: 30px; }
+          .topBg .box .banner .infos .top ul li a:hover {
+            color: #ffe21f; }
+          .topBg .box .banner .infos .top ul li .on {
+            color: #ffe21f; }
+          .topBg .box .banner .infos .top span a {
+            display: block;
+            height: 68px;
+            line-height: 68px;
+            margin-right: 6px;
+            color: #7c5857;
+            font-size: 32px; }
+        .topBg .box .banner .infos .bot {
+          width: 100%;
+          padding-top: 10px;
+          height: 206px;
+          background: #fffefe; }
+          .topBg .box .banner .infos .bot h3 a {
+            display: block;
+            width: 471px;
+            margin: 0 auto;
+            font: 16px/44px "微软雅黑";
+            color: #000000;
+            text-align: center; }
+            .topBg .box .banner .infos .bot h3 a span {
+              width: 86px;
+              background: #fa6e7f;
+              color: #fff; }
+            .topBg .box .banner .infos .bot h3 a em {
+              width: 385px; }
+          .topBg .box .banner .infos .bot .con {
+            width: 471px;
+            margin: 0 auto;
+            padding-top: 8px; }
+            .topBg .box .banner .infos .bot .con ul li a {
+              display: block; }
+              .topBg .box .banner .infos .bot .con ul li a span {
+                font: 16px/36px "微软雅黑";
+                color: #000000;
+                width: 320px; }
+              .topBg .box .banner .infos .bot .con ul li a em {
+                font: 16px/36px "微软雅黑";
+                color: #666464; }
+
+.sec {
+  width: 100%;
+  height: 577px;
+  background: url(../images/sec_bg.jpg) no-repeat center; }
+  .sec ul {
+    width: 1156px;
+    padding: 20px;
+    border: 2px solid #e3dfdc;
+    margin: 0 auto;
+    cursor: pointer; }
+    .sec ul li {
+      width: 136px;
+      height: 472px;
+      margin-right: 10px;
+      overflow: hidden;
+      position: relative; }
+      .sec ul li span {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        width: 136px;
+        height: 472px; }
+        .sec ul li span img {
+          width: 100%; }
+    .sec ul .img1 {
+      background: url(../images/sfq_1.png) no-repeat center; }
+    .sec ul .img2 {
+      background: url(../images/sfq_1.png) no-repeat center; }
+    .sec ul .img3 {
+      background: url(../images/sfq_1.png) no-repeat center; }
+    .sec ul .img4 {
+      background: url(../images/sfq_1.png) no-repeat center;
+      margin-right: 0; }
+    .sec ul .on {
+      width: 707px; }
+
+.thrSec {
+  width: 100%;
+  height: 616px;
+  background: url(../images/thr.png) no-repeat center; }
+  .thrSec .box {
+    width: 1134px;
+    height: 616px;
+    margin: 0 auto;
+    padding-left: 66px; }
+    .thrSec .box .secL {
+      width: 404px;
+      padding-top: 36px;
+      position: relative;
+      z-index: 3; }
+      .thrSec .box .secL h2 img {
+        height: 99px;
+        padding: 22px 24px; }
+      .thrSec .box .secL h3 {
+        font: 17px/24px "微软雅黑";
+        color: #fff;
+        border-top: 1px solid #a5cdec;
+        border-bottom: 1px solid #a5cdec;
+        margin-bottom: 38px;
+        display: inline-block;
+        margin-left: 26px;
+        padding: 10px 0; }
+      .thrSec .box .secL h4 {
+        margin-bottom: 30px; }
+        .thrSec .box .secL h4 span, .thrSec .box .secL h4 em {
+          padding-left: 136px;
+          width: 100%;
+          display: block;
+          height: 44px;
+          font: 14px/44px "微软雅黑";
+          color: #fff; }
+        .thrSec .box .secL h4 span {
+          background: url(../images/jstd.png) no-repeat 26px center; }
+        .thrSec .box .secL h4 em {
+          background: url(../images/lxdw.png) no-repeat 26px center; }
+      .thrSec .box .secL ul li {
+        width: 166px;
+        height: 166px;
+        cursor: pointer; }
+      .thrSec .box .secL ul .mpsz {
+        background: url(../images/mpsz.png) no-repeat center; }
+      .thrSec .box .secL ul .wqgx {
+        background: url(../images/wqgx.png) no-repeat center; }
+    .thrSec .box .secR {
+      position: relative;
+      z-index: 2;
+      width: 798px;
+      height: 606px;
+      padding-top: 10px;
+      margin-left: -68px; }
+      .thrSec .box .secR .container {
+        width: 100%;
+        height: 100%;
+        position: relative; }
+        .thrSec .box .secR .container ul {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          top: -32px;
+          background: url(../images/jnbg.png) no-repeat 180px top; }
+          .thrSec .box .secR .container ul li {
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            cursor: pointer; }
+            .thrSec .box .secR .container ul li dl {
+              position: relative; }
+              .thrSec .box .secR .container ul li dl dt img {
+                width: 100%; }
+              .thrSec .box .secR .container ul li dl dd {
+                position: absolute;
+                top: -60px;
+                width: 117px;
+                padding: 6px;
+                left: -30px;
+                min-height: 38px;
+                font: 10px/14px "微软雅黑";
+                color: #ebebeb;
+                border-radius: 6px;
+                background: rgba(0, 0, 0, 0.6);
+                z-index: 4; }
+          .thrSec .box .secR .container ul .jn1 {
+            top: 532px;
+            left: 326px; }
+          .thrSec .box .secR .container ul .jn2 {
+            top: 494px;
+            left: 456px; }
+          .thrSec .box .secR .container ul .jn3 {
+            top: 426px;
+            left: 572px; }
+          .thrSec .box .secR .container ul .jn4 {
+            top: 327px;
+            left: 663px; }
+          .thrSec .box .secR .container ul .jn5 {
+            top: 213px;
+            left: 721px; }
+            .thrSec .box .secR .container ul .jn5 dl dd {
+              left: -56px; }
+      .thrSec .box .secR .sec1 {
+        background: url(../images/roles2.png) no-repeat center; }
+
+.fourSec {
+  width: 100%;
+  height: 486px;
+  padding-top: 4px;
+  background: url(../images/ke_bg.png) no-repeat center; }
+  .fourSec .box {
+    width: 1200px;
+    height: 486px;
+    margin: 0 auto;
+    text-align: center; }
+    .fourSec .box h2 img {
+      height: 39px;
+      padding: 55px;
+      margin: 0 auto; }
+    .fourSec .box .content {
+      width: 100%;
+      text-align: center;
+      font-size: 0; }
+      .fourSec .box .content dl {
+        width: 279px;
+        height: 264px;
+        display: inline-block;
+        margin: 0 31px;
+        background: url(../images/ke_kuang_bg.png) no-repeat center; }
+        .fourSec .box .content dl dt {
+          width: 279px;
+          height: 201px;
+          position: relative; }
+          .fourSec .box .content dl dt img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto; }
+        .fourSec .box .content dl dd {
+          font: 16px/20px "微软雅黑";
+          color: #000000;
+          text-align: center; }
+        .fourSec .box .content dl .on {
+          color: #fb2d36; }
+    .fourSec .box h3 {
+      font: 12px/34px "微软雅黑";
+      color: #7a7674;
+      text-align: center; }
+
+.share {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  height: 30px; }
+  .share .jiathis_style .jtico {
+    height: 16px !important;
+    width: 20px !important;
+    padding-left: 0 !important;
+    margin: 0 4px; }
+  .share .jiathis_style .jtico_tsina {
+    background: url(../images/weibo_63.png) no-repeat left !important;
+    background-size: cover;
+    height: 30px !important;
+    width: 30px !important; }
+  .share .jiathis_style .jtico_cqq {
+    background: url(../images/QQ_63.png) no-repeat left !important;
+    background-size: cover;
+    height: 30px !important;
+    width: 30px !important;
+    margin: 0 4px; }
+  .share .jiathis_style .jtico_weixin {
+    background: url(../images/weixin_06.png) no-repeat left !important;
+    background-size: cover;
+    height: 30px !important;
+    width: 30px !important;
+    margin: 0 4px; }
+  .share .jiathis_style .jiathis_txt {
+    line-height: 30px !important;
+    margin: 0 4px;
+    color: #626160;
+    font-size: 16px; }
